@@ -1,0 +1,47 @@
+﻿  Bank Project (C++ Console).cpp
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsString.h(42,19): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsString.h(47,23): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsString.h(59,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsString.h(188,20): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsString.h(318,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsString.h(361,16): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsUtil.h(59,2): warning C4102: 'defualt': unreferenced label
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsUser.h(181,9): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+      C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsUser.h(24,9):
+      see declaration of 'clsUser::stLoginRegisterRecord'
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsInputValidate.h(104,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsInputValidate.h(107,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsBankClient.h(180,9): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferLogRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+      C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsBankClient.h(22,9):
+      see declaration of 'clsBankClient::stTransferLogRecord'
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsTotalBalancesScreen.h(50,68): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsUpdateCurrencyRateScreen.h(17,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Bank%20Project%20(C++%20Console).cpp')
+  
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsBankClient.h(324,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\clsUser.h(370,1): warning C4715: 'clsUser::Save': not all control paths return a value
+  Bank Project (C++ Console).vcxproj -> C:\Users\AS\Desktop\Projects\Bank Project (C++ Console)\x64\Debug\Bank Project (C++ Console).exe
