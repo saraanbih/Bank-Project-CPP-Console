@@ -5,7 +5,7 @@ This project simulates a basic banking system using Object-Oriented Programming 
 
 The application also implements **permissions using bitwise AND**, which controls access to certain menu options. Users' permissions are managed based on their roles, and only those with the appropriate permissions can access certain functionalities.  
 
-Additionally, the project incorporates the following libraries to improve usability and functionality: **Util**, **Date**, and **Validate Input**.
+Additionally, the project incorporates the following libraries to improve usability and functionality: **String Library**, **Util Library**, **Date Library**, and **Validate Input Library**.
 
 ---
 
@@ -77,6 +77,10 @@ The Main Menu includes the following **10 options**:
 ---
 
 ## **Libraries Used**  
+
+### **String Library**  
+- The **String Library** contains several functions for string manipulation, including string validation, formatting, and other common string operations.  
+- It is used extensively throughout the project to handle user inputs and output formatting.
 
 ### **Util Library**  
 - The **Util Library** provides various utility functions to streamline the operations of the banking system, such as formatting, logging, and other helper functions needed across the project.  
