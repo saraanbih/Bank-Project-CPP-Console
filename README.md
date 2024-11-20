@@ -5,6 +5,8 @@ This project simulates a basic banking system using Object-Oriented Programming 
 
 The application also implements **permissions using bitwise AND**, which controls access to certain menu options. Users' permissions are managed based on their roles, and only those with the appropriate permissions can access certain functionalities.  
 
+Additionally, the project incorporates the following libraries to improve usability and functionality: **Util**, **Date**, and **Validate Input**.
+
 ---
 
 ## **Features**  
@@ -76,11 +78,14 @@ The Main Menu includes the following **10 options**:
 
 ## **Libraries Used**  
 
-- **String Library**:  
-  A custom string library is included, which offers various string manipulation functions for tasks like validation and formatting.
-  
-- **Validate Library**:  
-  A library for input validation is used to ensure the integrity of data entered by users, such as verifying if a number is positive or if input meets certain criteria.
+### **Util Library**  
+- The **Util Library** provides various utility functions to streamline the operations of the banking system, such as formatting, logging, and other helper functions needed across the project.  
+
+### **Date Library**  
+- The **Date Library** handles all date and time operations within the application, including logging the date and time of user login and other time-sensitive operations. It offers functions to work with and format dates efficiently.
+
+### **Validate Input Library**  
+- The **Validate Input Library** is used to validate user inputs throughout the application. It checks if the entered data meets predefined criteria (e.g., ensuring that numerical inputs are positive or that a valid date is entered), preventing errors and enhancing data integrity.
 
 ---
 
@@ -112,4 +117,3 @@ The Main Menu includes the following **10 options**:
 Thank you for checking out the **Bank Project (OOP)**! This project demonstrates how object-oriented principles can be applied to a real-world banking system, with an added focus on security and user permissions. I hope you find this project useful and insightful!  
 
 Feel free to explore, contribute, and suggest improvements to make it even better!
-
