@@ -1,9 +1,9 @@
 # **Bank Project (OOP)**  
 
 ## **Project Overview**  
-This project is designed to simulate a basic banking system using Object-Oriented Programming (OOP) principles. It requires users to log in with a valid username and password, and after successful login, they will have access to a **Main Menu** with various banking operations. If the user fails to enter correct credentials within three attempts, the program locks, ensuring security.  
+This project simulates a basic banking system using Object-Oriented Programming (OOP) principles. It requires users to log in with a valid username and password, and after successful login, they will have access to a **Main Menu** with various banking operations. If the user fails to enter correct credentials within three attempts, the program locks, ensuring security.  
 
-The project is structured with multiple options and submenus for managing clients, transactions, users, and more. The application also includes a string validation library and a date/time library for enhanced functionality.
+The application also implements **permissions using bitwise AND**, which controls access to certain menu options. Users' permissions are managed based on their roles, and only those with the appropriate permissions can access certain functionalities.  
 
 ---
 
@@ -14,6 +14,11 @@ The project is structured with multiple options and submenus for managing client
 - If the user enters the wrong credentials three times, the program locks for security purposes.
 - After successful login, the **login time** and **user details** are registered.
 - The **Main Menu** is then displayed with various options.
+
+### **Permissions (Bitwise AND)**  
+- Permissions for each user are controlled using bitwise AND operations.  
+- Each menu option has a permission flag, and only users with the appropriate permission level can access certain actions.  
+- Permissions are checked before allowing access to specific features, such as adding new clients or transferring funds.  
 
 ### **Main Menu**  
 The Main Menu includes the following **10 options**:
@@ -89,15 +94,22 @@ The Main Menu includes the following **10 options**:
    - If your credentials are incorrect three times, the program will lock for security.  
    - If you enter the correct details, the system will log the **time** of the login and display the **Main Menu**.
 
-3. **Main Menu**:  
+3. **Permissions**:  
+   - Each user has a set of permissions defined by a bitwise flag.  
+   - Depending on your role and the permissions assigned, you will have access to different menu options.  
+   - The system checks these permissions before granting access to sensitive features (e.g., transferring funds or managing clients).
+
+4. **Main Menu**:  
    - From the Main Menu, choose from the available options (e.g., view client info, make transactions, manage users, etc.).
    - Each option may have submenus that further define actions for managing clients, transactions, users, etc.
 
-4. **Logout**:  
+5. **Logout**:  
    - Once you're done, choose the **Logout** option to return to the login screen.
 
 ---
 
 ## **Conclusion**  
-Thank you for checking out the **Bank Project (OOP)**! I hope this project serves as a useful tool and provides insight into how Object-Oriented Programming can be applied in real-world systems. Feel free to explore, contribute, and suggest improvements to make it even better!
+Thank you for checking out the **Bank Project (OOP)**! This project demonstrates how object-oriented principles can be applied to a real-world banking system, with an added focus on security and user permissions. I hope you find this project useful and insightful!  
+
+Feel free to explore, contribute, and suggest improvements to make it even better!
 
